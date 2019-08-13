@@ -2,7 +2,7 @@
 > Created by Nicholas Ramsay
 
 ## Model
-'''python
+```python
 
 class User:
     def __init__(self, id, name):
@@ -36,7 +36,7 @@ class Model:
 
     def Login(username, password):
         pass
-'''
+```
 
 ## View
 The views will be stored in the `templates/` folder like normal in flask.
