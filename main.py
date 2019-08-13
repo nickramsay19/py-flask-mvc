@@ -1,4 +1,4 @@
-from model import Model
+from model import Model # get the Model
 from flask import Flask
 app = Flask(__name__)
 

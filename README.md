@@ -43,3 +43,12 @@ The views will be stored in the `templates/` folder like normal in flask.
 
 ## Controller
 Like the view, flask will handle the controller like normal.
+```python
+from model import Model # get the Model
+from flask import Flask
+app = Flask(__name__)
+
+@app.route('/')
+def hello_world():
+    return 'Hello, World!'
+```
